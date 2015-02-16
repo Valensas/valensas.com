@@ -240,11 +240,11 @@ input, textarea {
 a, a:hover { text-decoration: none;}
 
 .subscription-submit{
-	height: 35px;
+	height: 33px;
 	background: transparent;
 	color: #fff;
 	font-size: 22px;
-	padding: 0 16px;
+	padding: 0 17px;
 	border: 2px solid #fff;
 	border-radius: 5px;
 	cursor: hand;
