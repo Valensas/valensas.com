@@ -1547,5 +1547,5 @@ font-size: 12px;
 .new_social li .linkedin {background: url(assets/images/social_icons.png) -142px -40px no-repeat;}
 
 
-.new_copyright {float: right; width: 300px;  color: white; line-height: 40px; text-align: right;}
+.new_copyright {float: left; width: 220px;  color: white; line-height: 40px; text-align: left;}
 .footer-meta {width: 100%;}	
