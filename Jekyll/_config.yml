@@ -9,7 +9,7 @@
 title: Valensas
 email: info@valensas.com
 description: > # Valensas webpage
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "Jekyll" # the subpath of your site, e.g. /blog
 url: "http://www.valensas.com" # the base hostname & protocol for your site
 twitter_username: twitter.com/valensas
 facebook_username:  facebook.com/valensas
