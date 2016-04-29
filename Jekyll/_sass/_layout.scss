@@ -1,103 +1,6 @@
-/**
- * Site header
- */
-// .site-header {
-//     border-top: 5px solid $grey-color-dark;
-//     border-bottom: 1px solid $grey-color-light;
-//     min-height: 60px;
-//     // Positioning context for the mobile navigation icon
-//     position: relative;
-//     background-color: $brand-color;
-// }
-
-// .site-title {
-//     font-size: 26px;
-//     font-weight: 300;
-//     line-height: 56px;
-//     letter-spacing: -1px;
-//     margin-bottom: 0;
-//     float: left;
-//     &,
-//     &:visited {
-//         color: $white-color;
-//     }
-// }
-//
-// .site-nav {
-//     float: right;
-//     line-height: 60px;
-//
-//     .menu-icon {
-//         display: none;
-//     }
-//
-//     .page-link {
-//         color: $white-color;
-//         line-height: $base-line-height;
-//
-//         // Gaps between nav items, but not on the last one
-//         &:not(:last-child) {
-//             margin-right: 30px;
-//         }
-//
-//         &:hover{
-//           color: $grey-color-light;
-//         }
-//
-//         &:active{
-//           color: $brand-color;
-//         }
-//     }
-//
-//     @include media-query($on-palm) {
-//         position: absolute;
-//         top: 9px;
-//         right: $spacing-unit / 2;
-//         background-color: $background-color;
-//         border: 1px solid $white-color;
-//         border-radius: 5px;
-//         text-align: right;
-//
-//         .menu-icon {
-//             display: block;
-//             float: right;
-//             width: 36px;
-//             height: 26px;
-//             line-height: 0;
-//             padding-top: 10px;
-//             text-align: center;
-//
-//             > svg {
-//                 width: 18px;
-//                 height: 15px;
-//
-//                 path {
-//                     fill: $grey-color-dark;
-//                 }
-//             }
-//         }
-//
-//         .trigger {
-//             clear: both;
-//             display: none;
-//         }
-//
-//         &:hover .trigger {
-//             display: block;
-//             padding-bottom: 5px;
-//         }
-//
-//         .page-link {
-//             display: block;
-//             padding: 5px 10px;
-//
-//             &:not(:last-child) {
-//                 margin-right: 0;
-//             }
-//             margin-left: 20px;
-//         }
-//     }
-// }
+h1,h2,h3,h4,h5,h6,a,ul,li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .valensaslogo {
   max-width:100%;
@@ -132,27 +35,6 @@
     overflow:visible;
     max-height: 300px;
   }
-
-  .btn {
-    position: relative;
-    border-color: white;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-transition: color 0.25s, background 0.25s;
-    -moz-transition: color 0.25s, background 0.25s;
-    -o-transition: color 0.25s, background 0.25s;
-    transition: color 0.25s, background 0.25s;
-    color: #fff;
-
-    &:active {
-      background: rgba(red($brand-color), green($brand-color), blue($brand-color), 0.5);
-    }
-  }
-  .btn.btn-large {
-    font-size: 17px;
-    padding: 12px 18px;
-  }
 }
 
 /*full width container*/
@@ -171,7 +53,6 @@
       width:40em;
   }
 
-
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     .page-link {
       color: $grey-color-dark;
@@ -184,46 +65,58 @@
   }
 }
 
-
+.button.hollow {
+  color:white;
+  border-color: white;
+  // border-radius: 6px;
+  transition: color 0.25s, background 0.25s;
+  &:active {
+    background: rgba(red($brand-color), green($brand-color), blue($brand-color), 0.5);
+  }
+  font-size: 21px;
+  // padding: 12px 18px;
+}
 
 // * Footer 1 stylesheet
 // * */
 .footer {
   background-color: rgb(49, 67, 97);
- padding-top: 85px;
- padding-bottom: 85px;
- font-size: 16px;
- color: #bdc3c7;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #2B3D4F;
 }
-.footer .lead {
- margin-bottom: 15px;
- margin-top: -10px;
- font-size: 22px;
- font-weight: normal;
- color: #ffffff;
- font-weight: 300;
- letter-spacing: -1px;
-}
-.footer .lead b {
- font-weight: 500;
-}
-.footer .row{
-  .small-12 {
-    text-align: center;
-    h6, ul {
-      text-align: center;
-    }
+.jobs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:#FF7979;
+  font-size: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  a{
+    color:#fff;
   }
 }
-
+.footer .lead {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #BDC3C7;
+}
+.footer .lead b {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
 .footer a {
- color: #bdc3c7;
+ color: #BDC3C7;
  font-weight: normal;
 }
 .footer a:hover,
 .footer a:focus,
 .footer a.active {
- color: #979c9f;
+ color: #fff;
 }
 .footer h6 {
  margin: 0 0 20px;
@@ -231,27 +124,18 @@
  font-weight: normal;
  color: #ffffff;
  line-height: 16px;
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  text-transform: none;
-text-align: right;
 }
 .footer ul {
- list-style: none;
- margin: 0;
- padding: 0;
- font-size: 16px;
- font-weight: normal;
- color: #bdc3c7;
- text-align: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #bdc3c7;
 }
 .footer ul li {
  margin-bottom: 5px;
-}
-@media (max-width: 480px) {
- .footer {
-   padding-top: 35px;
-   padding-bottom: 35px;
- }
 }
 
 /**
