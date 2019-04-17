@@ -55,9 +55,6 @@ creative_features:
 # Case Studies Section
 casestudies_title: Case Studies
 casestudies_slider:
-    -  title: Akbank "Tosla"
-       content: We have an alternative to cash in your pocket and your money in the bank. It is cheap to move, easy to reach and open up a new social world to be a part.<br><br> Instant  money transfer to all your friends, whether or not they are network members.<br><br> Moreover, you can withdraw the money sent via ATMs and reach to the cash you need instantly.
-       image: case1.png
     -  title: Turkish Airlines
        content: Cabin and cockpit crews are now able to do their operations online.<br><br>We achieved more than 50% of time savings across all transactions.<br><br>Document tracking, personnel tracking, flight personnel information and flight information are available to the whole team.
        image: case2.png
