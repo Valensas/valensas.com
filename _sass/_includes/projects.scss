@@ -1,0 +1,45 @@
+.projects__hero {
+    background-size: cover;
+    background-position: center center;
+    height: 320px;
+
+    @media( min-width: 768px) {
+      height: 400px;
+    }
+  }
+
+  @media( max-width: 990px) {
+    .projects_quote {
+      padding: 30px 0;
+    }
+  }
+
+  .projects__hero h1 {
+    font-weight: 300;
+    padding-top: 5.5rem;
+    @media( max-width: 768px) {
+      font-size: 1.8rem;
+      padding-top: 4rem;
+    }
+
+  }
+
+  .projects__hero p {
+    font-weight: 200;
+    font-size: 1.5rem;
+
+    @media( max-width: 767px) {
+      font-size: small;
+    }
+  }
+
+  .projects__item img {
+    min-width: 100%;
+  }
+
+  .projects__item h2,
+  .projects__item a,
+  .projects__item a:link {
+    color: #0067b4;
+    font-size: 1rem;
+  }

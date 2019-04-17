@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+
+<section id="productCarousel" class="productCarousel carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators d-sm-none">
+      {% for slide in page.product_slider %}
+        <li data-target="#productCarousel" data-slide-to="{{ forloop.index | minus: 1 }}"  class="{% if forloop.first %}active{% endif %}"></li>
+      {% endfor %}
+    </ol>
+
+    <div class="carousel-inner d-sm-none">
+      {% for slide in page.product_slider %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img src="/img/{{slide.image}}" >
+            </div>
+      {% endfor %}
+    </div>
+
+    <div class="carousel-inner d-none d-sm-block">
+      <div class="carousel-item active">
+        <img src="/img/{{page.project_image}}" >
+      </div>
+    </div>
+  </section>
+
+
+<section class="container product__single pb-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2 class="mb-2">{{page.title | markdownify}}</h2>
+            {{content}}
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-md-10 offset-md-2">
+          <div class="extra_info">
+            <span class="extra_info__title">Project Year:</span>
+            <span class="extra_info__content">{{page.project_year}}</span>
+          </div>
+          <div class="extra_info">
+              <span class="extra_info__title">Project Type:</span>
+              <span class="extra_info__content">
+                  {% for tag in page.project_type %}{%if forloop.index0  == 0  %}{% else %}, {% endif %}{{ tag }}{% endfor %}
+              </span>
+            </div>
+            <div class="extra_info">
+                <span class="extra_info__title">Tagged With:</span>
+                <span class="extra_info__content">
+                    {% for tag in page.tagged_with %}{%if forloop.index0  == 0  %}{% else %},  {% endif %}<a href="{{tag.link}}">{{ tag.name }}</a>{% endfor %}
+                </span>
+              </div>
+        </div>
+    </div>
+  </section>

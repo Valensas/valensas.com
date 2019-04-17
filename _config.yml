@@ -1,21 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Valensas
-email: info@valensas.com
-description: > # Valensas webpage
-baseurl: "/Jekyll" # the subpath of your site, e.g. /blog
-url: "http://valensas.com" # the base hostname & protocol for your site
-twitter_username: twitter.com/valensas
-facebook_username:  facebook.com/valensas
+title: Valensas << Technology Services
+description: >- # this means to ignore newlines until "baseurl:"
+  Founded in 2005, Valensas is a Turkey based information technology solution provider,
+  helping customers with focused attention and intelligent know-how.
+  As the company has expanded, we have developed a unique series of innovative
+  products and services that are exclusive to Valensas to meet and exceed our clients needs.
+  We create applications and integrate services that ensure our customers remain on the
+  cutting edge of technology and offer them in conjunction with our digital business services.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 host: 0.0.0.0
-port: 4000
+# port: 4000
+
+nav:
+  - text: Our Products
+    link: /products/
+  - text: Enterprise Solutions
+    link: /enterprise-solutions/
+  - text: Projects
+    link: /projects/
+  - text: Contact
+    link: /contact/
+
+
+footer_cta: Let's work together
+footer_cta_link: mailto:info@valensas.com
+footer_content_1: 8,750,000+ users registered since 2008
+footer_content_2: We create products that help your life to look even better.
+footer_navigation_1_title: About
+footer_navigation_1:
+    - text: Our Products
+      link: /products/
+    - text: Enterprise Solutions
+      link: /enterprise-solutions/
+    - text: Projects
+      link: /projects/
+    - text: Contact
+      link: /contact/
+footer_navigation_2_title: Follow
+footer_navigation_2:
+    - text: Linkedin
+      link: https://www.linkedin.com/company/valensas/
+    - text: Twitter
+      link: https://twitter.com/valensascom
+    - text: Youtube
+      link: https://www.youtube.com/user/ValensasTechnology
+
+
+collections:
+  projects:
+    output: true
+
+
 # Build settings
 markdown: kramdown
-sass:
-  sass_dir: _sass
+plugins:
+  - jekyll-feed
+
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

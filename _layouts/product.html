@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+<section id="heroCarousel" class="heroCarousel carousel slide productHeroCarousel" data-ride="carousel" data-pause="false">
+  <ol class="carousel-indicators">
+    {% for slide in page.hero_slider %}
+      <li data-target="#heroCarousel" data-slide-to="{{ forloop.index | minus: 1 }}"  class="{% if forloop.first %}active{% endif %}"></li>
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner carousel-inner--product">
+    <!-- <div class="col-lg-3 col-md-4 ">
+      <img class="product__hero-phone" src="/img/{{slide.hero_iphone}}">
+    </div> -->
+    {% for slide in page.hero_slider %}
+        <div class="product__hero carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url(/img/{{slide.hero_bg}});">
+
+          <div class="container">
+              <div class="row">
+                <div class="col-12" style="text-align: center;">
+                    <h1 class="mb-4">
+                      {{slide.hero_title_1}}<br>
+                      {{slide.hero_title_2}}
+                    </h1>
+                    <p class="w-75 mx-auto">{{slide.hero_subtitle_1}}<br>
+                        {{slide.hero_subtitle_2}}
+                    </p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- <section class="product__hero" style="background-image: url(/img/{{page.hero_bg}});">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-8 col-sm-12">
+            <h1 class="mb-3 mt-5">
+              {{page.hero_title_1}}<br>
+              {{page.hero_title_2}}
+            </h1>
+            <h2>{{page.hero_subtitle_1}}<br>
+                {{page.hero_subtitle_2}}
+            </h2>
+        </div>
+        <div class="col-lg-3 col-md-4 ">
+          <img class="product__hero-phone" src="/img/{{page.hero_iphone}}">
+        </div>
+      </div>
+    </div>
+</section> -->
+
+<div class="container">
+
+    <section>
+      <h1 class="section-title text-center pt-4 mb-2 mb-md-4"><span class=" highlight-text">{{page.veacon_title_highlight}}</span> {{page.veacon_title}}</h1>
+      <p class="section-subtitle text-center mb-3 mb-md-5 w-75 mx-auto">{{page.veacon_subtitle}}</p>
+    </section>
+
+    <section class="products_info mb-3 mb-md-4">
+      <div class="row">
+      <div class="col-lg-8">
+        {% for product in page.product_info %}
+          <div class="product__feature py-3 py-md-5 mr-md-5">
+            <div class="product__icon">
+                <img src="/img/{{product.icon}}">
+            </div>
+            <div class="product__details pl-3 pl-md-5">
+              <h3 class="mb-3">{{product.title}}</h3>
+              <p class="mb-3">{{product.content}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+        <div class="col-lg-4">
+            <div id="iphoneslider" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                {% for slide in page.iphone_slide %}
+                  <li data-target="#iphoneslider" data-slide-to="{{forloop.index | minus: 1}}"  class="{% if forloop.first %}active{% endif %}"></li>
+                {% endfor %}
+              </ol>
+              <div class="carousel-inner">
+                  {% for slide in page.iphone_slide %}
+                  <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                      <img src="/img/{{slide.image}}">
+                  </div>
+                  {% endfor %}
+              </div>
+            </div>
+        </div>
+      </div>
+    </section> <!-- product features-->
+
+
+    <section>
+        <h1 class="section-title text-center pr-3 mb-3 pt-md-4 mb-md-4"><span class=" highlight-text">{{page.vdp_title_highlight}}</span> {{page.vdp_title}}</h1>
+        <p class="section-subtitle text-center pb-3 pb-md-4 mb-3 mb-md-5 w-75 mx-auto">{{page.vdp_subtitle}}</p>
+      </section>
+
+    <section class="product__vdp mb-3 mb-md-4">
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <h2 class="mb-3 mb-md-4">{{page.vdp_section_title}}</h2>
+          {% for content in page.vdp_content %}
+            <p class="mr-5 pr-md-5 mb-4">{{ content.p}}</p>
+          {% endfor %}
+        </div>
+        <div class="col-lg-6">
+          <img src="/img/{{page.vdp_image}}">
+        </div>
+      </div>
+
+      <div class="row mb-5">
+          {% for third in page.vdp_third %}
+          <div class="col-lg-4">
+            <h3 class="mb-4">{{third.title}}</h3>
+            <p class="">{{ third.content}}</p>
+          </div>
+          {% endfor %}
+      </div>
+    </section>
+
+
+    <section class="workbook mb-3 mb-md-4 pb-3 pb-md-3">
+      <h1 class="section-title text-center pt-3 pt-md-4 mb-3 mb-md-4"><span class=" highlight-text">{{page.workbook_title_highlight}}</span> {{page.workbook_title}}</h1>
+      <p class="section-subtitle text-center pb-3 pb-md-4 mb-3 mb-md-5 w-75 mx-auto">{{page.workbook_subtitle}}</p>
+
+      {% for work in page.workbook %}
+      <div class="row workbook__item my-2 my-md-4 py-2 py-md-4">
+          <div class="col-md-7">
+            <h2 class="">{{work.title}}</h2>
+            <p class="mr-md-5 pr-md-5">{{work.content}}</p>
+          </div>
+          <div class="col-md-5">
+            <img src="/img/{{work.image}}">
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+</div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  {% include head.html %}
+
+  <body>
+    {% include nav.html %}
+
+    <main role="main">
+        {{ content }}
+
+        {% include footer.html %}
+   </main>
+
+    <script src=' {{ "/js/MultiCarousel.js" | prepend: site.baseurl }}'></script>
+    <script src=' {{ "/main.js" | prepend: site.baseurl }}'></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          navbar.classList.add("sticky-nav")
+        } else {
+          navbar.classList.remove("sticky-nav");
+        }
+      }
+    </script>
+  </body>
+</html>

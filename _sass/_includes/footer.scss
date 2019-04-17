@@ -1,0 +1,49 @@
+
+  .footer {
+    background-color: #314361;
+    color: #fff;
+  }
+  
+  .footer__banner {
+    display: block;
+    background-color: #ff7979;
+    color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 16px;
+    &:hover {
+      text-decoration: none;
+      color:  #fff;
+    }
+  }
+  
+  .footer h3,
+  .footer h4 {
+    font-weight: 300;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+  
+  .footer p {
+    font-weight: 200;
+    opacity: 0.5;
+    font-size: 14px;
+  }
+  
+  .footer h4 {
+  
+  }
+  
+  .footer__links > a{
+    display: block;
+    opacity: 0.5;
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.875rem;
+    margin-bottom: 0.4rem;
+    &:hover {
+      color: #fff;
+      opacity: 1;
+    }
+  }

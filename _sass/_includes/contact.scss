@@ -1,0 +1,42 @@
+
+  .contact__hero {
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media( min-width: 768px) {
+    .contact__item {
+      border-right:  solid 1px #b3b6c2;
+    }
+  }
+
+  .contact__item:last-of-type {
+    border: none;
+  }
+
+  .contact {
+    color: #6a7d91;
+    font-weight: 200;
+  }
+  .contact h3 {
+    font-size: 1.5rem;
+    color: #0067b4;
+    font-weight: 300;
+  }
+
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    iframe{
+      @media( max-width: 768px) {
+        width: 100%;
+        height: 400px;
+      }
+    }
+    @media( max-width: 768px) {
+      height: 400px;
+    }
+  }

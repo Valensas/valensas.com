@@ -1,0 +1,210 @@
+
+.heroCarousel h2 {
+    font-weight: 300;
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+    }
+  }
+
+  .heroCarousel p {
+    font-weight: 200;
+    min-height: 30%;
+    font-size: small;
+    margin-bottom: 4px !important;
+    @media( min-width: 768px) {
+        max-width: 70%;
+        font-size: 1.5rem;
+    }
+  }
+
+  .main-inner p{
+    font-weight: 200;
+    min-height: 30%;
+    font-size: small;
+    margin-bottom: 4px !important;
+    @media( min-width: 768px) {
+        max-width: 70%;
+        font-size: medium;
+    }
+  }
+
+  .heroCarousel .carousel-item {
+    background-size: cover;
+  }
+
+  .heroCarousel .carousel-item .app-icon {
+    @media( max-width: 768px) {
+      max-width: 75px;
+    }
+  }
+
+
+  .heroCarousel .carousel-indicators {
+    position: absolute;
+    bottom: -50px;
+  }
+
+  .btn-valensas {
+    border: solid 1px #000;
+    border-radius: 0;
+    padding: 0.5rem 1.25rem;
+  }
+
+  .highlight-text {
+    color: #2a60ba;
+  }
+
+  .brand-color {
+    color: #2e4053;
+  }
+  .brand-alt {
+    color: #005cab;
+  }
+
+  .creative_feature h3 {
+    font-size: 1.25rem;
+    @media (max-width: 768px) {
+      font-size: 1.15rem;
+    }
+  }
+
+  .creative_feature p,
+  .casestudies p {
+    font-weight: 200;
+  }
+
+  .creative_feature a {
+    font-weight: 600;
+  }
+
+  .casestudies {
+    background-color: #f8f8f8;
+  }
+
+  // .casestudiesimage{
+  //   width: 60% !important;
+  // }
+
+
+  .carousel-control-next-icon:after
+  {
+    content: '\203A';
+    font-size: 40px;
+    color: #333;
+  }
+
+  .carousel-control-prev-icon:after {
+    content: '\2039';
+    font-size: 40px;
+    color: #333;
+  }
+
+  .casestudies .carousel-item {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 300px;
+  }
+  .casestudiesinner{
+    @media (max-width: 768px) {
+      max-height: none !important;
+    }
+  }
+
+  .casestudies .carousel-indicators {
+    bottom: -50px;
+    // @media( min-width: 768px) {
+    //   padding-right: 15px;
+    //   bottom: 0;
+    //   left: auto;
+    //   margin-right: 0;
+    //   margin-left: 0;
+    // }
+  }
+
+  .casestudies h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .casestudies p {
+    font-size: 0.875rem;
+  }
+
+
+  .quote {
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #273646;
+
+    @media (max-width: 768px) {
+      font-size: 1.05rem;
+    }
+    &::before {
+      position: absolute;
+      top: -25px;
+      left: 10px;
+      content: '';
+      height: 26px;
+      width: 26px;
+      background-image: url(/img/quote-mark.png);
+      background-repeat: no-repeat;
+      background-size: 26px;
+      @media( min-width: 768px) {
+        top: -25px;
+        left: 50px;
+      }
+    }
+    &::after {
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+      content: '';
+      height: 26px;
+      width: 26px;
+      background-image: url(/img/quote-mark.png);
+      background-repeat: no-repeat;
+      background-size: 26px;
+      transform: rotate(180deg);
+      @media( min-width: 768px) {
+        bottom: 25px;
+        right: 50px;
+      }
+    }
+  }
+
+  .logo-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .supportimage{
+    display: none;
+  }
+
+  .logo-row {
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo-row img {
+    width: auto;
+    margin: 0 5px;
+    height: auto;
+    min-height: 25px;
+    max-height: 70px;
+    // @media( max-width: 768px) {
+    //   width: 65%;
+    //   max-width: 65%;
+    //   height: auto;
+    //   max-height: 70px;
+    // }
+  }
+    .logo-row__item {
+    width: 20%;
+    display: inline-block;
+  }

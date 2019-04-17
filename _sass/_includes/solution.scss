@@ -1,0 +1,60 @@
+.solution__hero {
+    background-size: cover;
+    background-position: bottom center;
+    height: 320px;
+
+    @media( min-width: 768px) {
+      height: 400px;
+    }
+  }
+
+  @media( max-width: 990px) {
+    .solution_quote {
+      padding: 30px 0;
+    }
+  }
+
+  .solution__hero h1 {
+    font-weight: 300;
+    padding-top:5.5rem;
+    @media( max-width: 768px) {
+      font-size: 1.8rem;
+      padding-top:4rem;
+    }
+  }
+  .solution__hero p {
+    font-weight: 200;
+    font-size: 1.5rem;
+    @media( max-width: 767px) {
+      font-size: small;
+    }
+  }
+
+  .enterprise-sol{
+    @media( min-width: 768px) {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+    }
+  }
+
+  ul{
+    @media( max-width: 768px) {
+      font-size: small;
+    }
+  }
+
+  .workbook__item:not(:last-child) {
+    border-bottom: solid 1px #ecf0f1;
+  }
+
+  .workbook p{
+    font-size: 15px;
+  }
+
+  // .workbook__item img {
+  //   min-width: 100%;
+  // }
