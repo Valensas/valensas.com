@@ -22,13 +22,19 @@ contact:
        - line: Resitpasa Mah. Katar Cad.
        - line: ARI TEKNOKENT 2 Sit. No:4/1
        - line: Sariyer, 34467 ISTANBUL -TURKIYE
-    - title: Valensas, New York City
-      phone: +1 212 803 81 97
-      fax: +1 212 792 4001
+    - title: Valensas R&D, IZMIR
+      phone: +90 (232) 504 11 65
+      fax: +90 232 504 11 65
       mail: info@valensas.com
       address:
-       - line: 245 Park Avenue
-       - line: 24th Floor New York City,
-       - line: New York 10167 USA
+       - line: Gulbahce Mah. Gulbahce Cad.
+       - line: IYTE TEKNOKENT  No:A9 D:20
+       - line: Urla, 35433 IZMIR -TURKIYE
+    - title: Valensas Inc., San Francisco
+      mail: info@valensas.com
+      address:
+       - line: 44 Montgomery Street
+       - line: 3rd Floor San Francisco,
+       - line: California 94104 USA
 
 ---
