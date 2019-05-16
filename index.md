@@ -33,7 +33,7 @@ hero_slider:
 # ----------------     
 # Creative Section
 creative_title_highlight: "‘’Valensas’’ "
-creative_title_main: Creative Performans
+creative_title_main: Creative Performance
 creative_subtitle: You can decide whether to create your site using UI Kit blocks or samples. You can decide whether to create your site using UI Kit blocks or samples. You can decide...
 creative_features:
     - title: iOS & AND Development
