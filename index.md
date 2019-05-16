@@ -34,7 +34,7 @@ hero_slider:
 # Creative Section
 creative_title_highlight: "‘’Valensas’’ "
 creative_title_main: Creative Performance
-creative_subtitle: You can decide whether to create your site using UI Kit blocks or samples. You can decide whether to create your site using UI Kit blocks or samples. You can decide...
+creative_subtitle: We bring together a digital world and a software development brains under one roof to build breakthrough products. Combining intelligent design and last technology engineering, we deliver power winning digital strategies. 
 creative_features:
     - title: iOS & AND Development
       description: Apple’s launch of the application market in 2008 culminated in the creation of a new, vast market.
