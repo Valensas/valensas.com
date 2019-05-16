@@ -90,8 +90,6 @@ customer_logos:
     height: 20px
   - logo: logo_tekfen.png
     height: 90px
-  - logo: logo_cs.png
-    height: 45px
   - logo: logo_bmw.png
     height: 80px
 ---
