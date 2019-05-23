@@ -34,7 +34,7 @@ hero_slider:
 # Creative Section
 creative_title_highlight: "‘’Valensas’’ "
 creative_title_main: Creative Performance
-creative_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce combining intelligent design and last technology engineering products with young brains. 
+creative_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce intelligent design and last technology engineering products with young, inspiring and collaborative people. 
 creative_features:
     - title: iOS & AND Development
       description: Apple’s launch of the application market in 2008 culminated in the creation of a new, vast market.
