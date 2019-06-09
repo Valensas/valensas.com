@@ -59,7 +59,7 @@ vdp_third:
 
 #  Workbook
 workbook_title_highlight: Valensas
-workbook_title: Workbook
+workbook_title: Workbuk
 workbook_subtitle: Publish your portfolios all over the world.
 workbook:
     - title: Astonishing Quality
