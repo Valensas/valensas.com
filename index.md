@@ -8,33 +8,33 @@ hero_slider:
       icon: logo-yemek.png
       content: Yemeksepeti is an online food ordering sites serving in 64 cities in Turkey
       link_text: Click for details
-      link_path: /projects/28-yemeksepeti.html
+      link_path: /projects/08-yemeksepeti.html
     - title: Akbank Direkt
       background: akbank-background.png       
       icon: akbank-direct-icon.png
       feature: akbanktv-banner.png
       content: Akbank Direkt is one of Turkey’s top mobile banking applications allowing all money transactions on the go.    
       link_text: Click for details
-      link_path: /projects/17-akbank-direkt.html
+      link_path: /projects/01-akbank.html
     - title: ERGO Sigorta
       background: ergo-background.png     
       icon: ergo-appIcon.png
       feature: ergo-logo1.png       
       content: With its fast and easy-to-use structure, ERGO'm Mobile provides instant data flow and control over important issues.    
       link_text: Click for details
-      link_path: /projects/02-ergom-mobil.html
+      link_path: /projects/
     - title: Tekfen IK
       background: tekfen-background.png      
       icon: tekfen-icon.png
       feature: akbank-banner copy.png  
       content: With this application check available job posts and apply, follow up on all developments related to the TEKFEN Construction.    
       link_text: Click for details        
-      link_path: /projects/12-tekfen.html
+      link_path: /projects/04-tekfen.html
 # ----------------     
 # Creative Section
 creative_title_highlight: "‘’Valensas’’ "
-creative_title_main: Creative Performance
-creative_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce intelligent design and last technology engineering products with young, inspiring and collaborative people. 
+creative_title_main: Creative Performans
+creative_subtitle: You can decide whether to create your site using UI Kit blocks or samples. You can decide whether to create your site using UI Kit blocks or samples. You can decide...
 creative_features:
     - title: iOS & AND Development
       description: Apple’s launch of the application market in 2008 culminated in the creation of a new, vast market.
@@ -55,6 +55,9 @@ creative_features:
 # Case Studies Section
 casestudies_title: Case Studies
 casestudies_slider:
+    -  title: Akbank "Tosla"
+       content: We have an alternative to cash in your pocket and your money in the bank. It is cheap to move, easy to reach and open up a new social world to be a part.<br><br> Instant  money transfer to all your friends, whether or not they are network members.<br><br> Moreover, you can withdraw the money sent via ATMs and reach to the cash you need instantly.
+       image: case1.png
     -  title: Turkish Airlines
        content: Cabin and cockpit crews are now able to do their operations online.<br><br>We achieved more than 50% of time savings across all transactions.<br><br>Document tracking, personnel tracking, flight personnel information and flight information are available to the whole team.
        image: case2.png
@@ -90,6 +93,8 @@ customer_logos:
     height: 20px
   - logo: logo_tekfen.png
     height: 90px
+  - logo: logo_cs.png
+    height: 45px
   - logo: logo_bmw.png
     height: 80px
 ---
