@@ -28,7 +28,7 @@ contact:
       mail: info@valensas.com
       address:
        - line: Gulbahce Mah. Gulbahce Cad.
-       - line: IYTE TEKNOKENT  No:A9 D:20
+       - line: IYTE TEKNOKENT  No:A9 D:34
        - line: Urla, 35433 IZMIR -TURKIYE
     - title: Valensas Inc., San Francisco
       mail: info@valensas.com
