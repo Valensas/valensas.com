@@ -22,7 +22,7 @@ veacon_subtitle: Veacon was born out of the idea to create more engagement for t
 product_info:
     - icon: product_video_icon.png
       title: Sensors
-      content: Sensors are available for purchase and any Bluetooth 4.0 enabled iOS device is able to broadcast as a sensor with our Veacon app.
+      content: Sensors are available for purchase and any Bluetooth 4.0 and above enabled iOS device is able to broadcast as a sensor with our Veacon app.
     - icon: product_gift_icon.png
       title: SDK
       content: We encourage every mobile developer to innovate with iBeacon technology, so we published the Veacon Mobile SDK, freely available for all developers here.
