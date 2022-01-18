@@ -33,8 +33,8 @@ contact:
     - title: Valensas Inc., San Francisco
       mail: info@valensas.com
       address:
-       - line: 44 Montgomery Street
-       - line: 3rd Floor San Francisco,
-       - line: California 94104 USA
+       - line: 353 Sacramento Street 
+       - line: Suite 1812 Fl 18 San Francisco,
+       - line: California 94111 USA
 
 ---
