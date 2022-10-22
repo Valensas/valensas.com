@@ -1,0 +1,115 @@
+.brand-color {
+  color: #2e4053;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '\203A';
+  font-size: 40px;
+  color: #333;
+}
+
+.carousel-control-prev-icon:after {
+  content: '\2039';
+  font-size: 40px;
+  color: #333;
+}
+
+.casestudies .carousel-item {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 300px;
+}
+.casestudiesinner{
+  @media (max-width: 768px) {
+    max-height: none !important;
+  }
+}
+
+.casestudies .carousel-indicators {
+  bottom: -50px;
+}
+
+.casestudies h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+.casestudies p {
+  font-size: 0.875rem;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: #273646;
+
+  @media (max-width: 768px) {
+    font-size: 1.05rem;
+  }
+  &::before {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    content: '';
+    height: 26px;
+    width: 26px;
+    background-image: url(/img/quote-mark.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    @media( min-width: 768px) {
+      top: -25px;
+      left: 50px;
+    }
+  }
+  &::after {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    content: '';
+    height: 26px;
+    width: 26px;
+    background-image: url(/img/quote-mark.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    transform: rotate(180deg);
+    @media( min-width: 768px) {
+      bottom: 25px;
+      right: 50px;
+    }
+  }
+}
+
+.supportimage{
+  display: none;
+}
+
+.logo {
+  max-width: 10em;
+  max-height: 5em;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  &:hover {
+    filter: none;
+  }
+  @media( max-width: 575px) {
+    max-width: 5rem;
+  }
+}
+
+.job-application {
+  background-color: #5F9DF7;
+  &:hover {
+    background-color: #1746A2;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+}
+
+.highlights-title {
+  color: #0067b4;
+}

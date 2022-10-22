@@ -1,0 +1,113 @@
+---
+layout: default
+---
+<!-- Creative Section -->
+<section class="container">
+  <div class="row pt-3">
+    <div class="col-md-6">
+      <p class="display-3 mb-4">{{page.creative_title}}</p>
+      <p class="lead text-justify mb-4">{{page.creative_subtitle}}</p>
+    </div>
+  </div>
+  <div class="row g-3 py-4">
+    {% for feature in page.creative_features %}
+      <div class="col-md-4 text-center">
+        <img width="100px" class="mb-4" src="/img/{{feature.icon}}">
+        <p class="fs-5 mb-2 brand-color">{{feature.title}}</p>
+        <p class="fw-lighter">{{feature.description}}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- Expertise Section -->
+<section class="container">
+  <p class="display-4 fw-lighter text-center pt-4 pb-5">{{page.expertise_title}}</p>
+  <div class="row g-0 justify-content-center">
+    {% for item in page.expertise %}
+      <div class="card col-md-3 col-sm-12 mx-3 bg-white">
+          <a href="{{ item.url }}" class="text-decoration-none">
+            <img class="card-img-top mb-4" src="/img/{{ item.image }}">
+            <div class="card-body">
+              <p class="card-title highlights-title">{{ item.title }}</p>
+              <p class="card-text text-dark">
+                {{ item.content }}
+              </p>
+            </div>
+          </a>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="text-center mt-3">
+    <a href="/enterprise-solutions/">
+      <button type="button" class="btn btn-outline-dark">See All</button>
+    </a>
+  </div>
+</section>
+<!-- Case Studies Section -->
+<section class="container">
+  <p class="display-4 fw-lighter text-center pt-4 mb-5">{{page.case_studies_title}}</p>
+  <div class="row g-0 justify-content-center">
+    {% for item in page.case_studies %}
+      <div class="card col-md-3 col-sm-12 mx-3 bg-white">
+          <a href="{{ item.url }}" class="text-decoration-none">
+            <img class="card-img-top mb-4" src="/img/{{ item.image }}">
+            <div class="card-body">
+              <p class="card-title highlights-title">{{ item.title }}</p>
+              <p class="card-text text-dark">
+                {{ item.content }}
+              </p>
+            </div>
+          </a>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="text-center mt-3">
+    <a href="/projects">
+      <button type="button" class="btn btn-outline-dark">See All</button>
+    </a>
+  </div>
+</section>
+<!-- Products Section -->
+<section class="container">
+  <p class="display-4 fw-lighter text-center pt-4 mb-5">{{page.products_title}}</p>
+  <div class="row g-0 justify-content-center">
+    {% for item in page.products %}
+      <div class="card col-md-3 col-sm-12 mx-3 bg-white">
+          <a href="{{ item.url }}" class="text-decoration-none">
+            <img class="card-img-top mb-4" src="/img/{{ item.image }}">
+            <div class="card-body">
+              <p class="card-title highlights-title">{{ item.title }}</p>
+              <p class="card-text text-dark">
+                {{ item.content }}
+              </p>
+            </div>
+          </a>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="text-center mt-3">
+    <a href="/products">
+      <button type="button" class="btn btn-outline-dark">See All</button>
+    </a>
+  </div>
+</section>
+<!-- Customer Logos Section -->
+<section class="container my-4">
+  <div class="row justify-content-center align-items-center">
+    {% for customer in page.customer_logos %}
+      <div class="col-auto my-2 justify-content-center">
+        <img src="/img/{{customer.logo}}" class="rounded logo">
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- Job Application Section -->
+<section>
+  <a 
+  href="{{site.application_form_cta_link}}"
+  class="d-block job-application text-center text-white text-decoration-none
+  font-weight-light text-uppercase py-4"
+  target="_blank">
+    {{site.application_form_cta}}
+  </a>
+</section>

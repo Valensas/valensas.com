@@ -1,26 +1,19 @@
-<header>
-    <div class="navbar navbar-expand-md navbar-light bg-light pb-2 pt-2" id="navbar">
-        <div class="container">
-
-            <a class="navbar-brand" href="/">
-                <img src="/img/logo.png"  style="max-width: 210px;"  alt="brand logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                    {% for item in site.nav %}
-                    <li>
-                        <li class="nav-item">
-                            <a class="nav-link {% if page.url == item.link %} active {% endif %}" href="{{item.link}}">{{item.text}}</a>
-                        </li>
-                    </li>
-                {% endfor %}
-            </ul>
-          </div>
-        </div>
+<header class="navbar navbar-expand-md navbar-light bg-light py-2">
+  <div class="container-xxl flex-wrap flex-md-nowrap">
+    <a class="navbar-brand" href="/">
+      <img src="/img/logo.png" alt="brand logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {% for item in site.nav %}
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == item.link %} active {% endif %}" href="{{item.link}}">{{item.text}}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-
+  </div>
 </header>

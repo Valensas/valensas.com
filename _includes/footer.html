@@ -1,33 +1,25 @@
-<footer class="footer pb-2">
-    <a href="{{site.footer_cta_link}}" class="footer__banner py-4 mb-4 text-center">
-        {{site.footer_cta}}
-    </a>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="mb-4" src="/img/logo-footer.png">
-                <h4>{{site.footer_content_1}}</h4>
-                <p>{{site.footer_content_2}}</p>
-            </div>
-            <div class="col">
-              <div class="mb-4 mb-md-0 d-none d-md-block">
-                  <h4 class="mb-2" >{{site.footer_navigation_1_title}}</h4>
-                  <div class="footer__links d-flex">
-                      {% for item in site.footer_navigation_1 %}
-                      <a class="pr-3" href="{{item.link}}">{{item.text}}</a>
-                      {% endfor %}
-                  </div>
-              </div>
-              <div class="mb-4 mb-md-0 d-none d-md-block">
-                  <h4 class="mb-2" >{{site.footer_navigation_2_title}}</h4>
-                  <div class="footer__links d-flex">
-                      {% for item in site.footer_navigation_2 %}
-                      <a class="pr-3" href="{{item.link}}">{{item.text}}</a>
-                      {% endfor %}
-                  </div>
-              </div>
-            </div>
+<footer class="footer py-2 text-white">
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="mb-4" src="/img/logo-footer.png">
+        <p class="fs-4">{{site.footer_content_1}}</p>
+        <p class="fw-light text-secondary">{{site.footer_content_2}}</p>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-4 mb-md-0">
+          <h4 class="mb-2">{{site.footer_socials_title}}</h4>
+          <div class="d-flex">
+            {% for item in site.footer_socials %}
+              <a
+              class="social fs-6 text-decoration-none text-white me-3"
+              href="{{item.link}}">
+                {{item.text}}
+              </a>
+            {% endfor %}
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </footer>

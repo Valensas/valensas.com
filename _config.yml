@@ -22,41 +22,33 @@ nav:
   - text: Contact
     link: /contact/
 
-
-footer_cta: Let's work together
-footer_cta_link: mailto:info@valensas.com
 footer_content_1: 8,750,000+ users registered since 2008
 footer_content_2: We create products that help your life to look even better.
-footer_navigation_1_title: About
-footer_navigation_1:
-    - text: Our Products
-      link: /products/
-    - text: Enterprise Solutions
-      link: /enterprise-solutions/
-    - text: Projects
-      link: /projects/
-    - text: Contact
-      link: /contact/
-footer_navigation_2_title: Follow
-footer_navigation_2:
-    - text: Linkedin
-      link: https://www.linkedin.com/company/valensas/
-    - text: Twitter
-      link: https://twitter.com/valensascom
-    - text: Youtube
-      link: https://www.youtube.com/user/ValensasTechnology
-
+footer_socials_title: Follow
+footer_socials:
+  - text: Linkedin
+    link: https://www.linkedin.com/company/valensas/
+  - text: Twitter
+    link: https://twitter.com/valensascom
+  - text: Youtube
+    link: https://www.youtube.com/user/ValensasTechnology
 
 collections:
   projects:
     output: true
 
+application_form_cta: Let's work together
+application_form_cta_link: https://forms.gle/s2CpNARVn8nth7GW7
+
+contact_form_cta: Keep in touch with us
+contact_form_cta_link: https://forms.gle/whcxhqkurJQL6hh18
+
+google_maps_url: https://maps.google.com/maps?q=valensas+re%C5%9Fitpa%C5%9Fa&t=&z=11&ie=UTF8&iwloc=&output=embed
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
-
 
 include: [".well-known"]
 
