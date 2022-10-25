@@ -13,8 +13,8 @@ host: 0.0.0.0
 # port: 4000
 
 nav:
-  - text: Our Products
-    link: /products/
+  - text: Portfolio
+    link: /portfolio/
   - text: Enterprise Solutions
     link: /enterprise-solutions/
   - text: Projects
@@ -49,6 +49,9 @@ google_maps_url: https://maps.google.com/maps?q=valensas+re%C5%9Fitpa%C5%9Fa&t=&
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+kramdown:
+  hard_wrap: true
 
 include: [".well-known"]
 
