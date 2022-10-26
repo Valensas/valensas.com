@@ -19,6 +19,8 @@ nav:
     link: /industries/
   - text: Products
     link: /products/
+  - text: Blog
+    link: /blog/
   - text: Enterprise Solutions
     link: /enterprise-solutions/
   - text: Projects
@@ -39,6 +41,8 @@ footer_socials:
 
 collections:
   projects:
+    output: true
+  blog:
     output: true
 
 application_form_cta: Let's work together

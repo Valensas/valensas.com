@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<!-- Hero Section -->
+<section>
+  <div
+  class="row hero-container align-items-center mb-5"
+  style="background-image: url(/img/{{page.hero_background_image}});">
+    <div class="col text-center">
+      <p class="display-6">
+        {{page.hero_title}}
+      </p>
+      <p class="fs-4 fw-lighter mt-2 w-75 mx-auto">
+        {{page.hero_subtitle}}
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Blog Section -->
+<section id="main" class="wrapper style1">
+  <div class="container">
+    <p class="display-4">{{page.title}}</p>
+    {% for e in site.blog %}
+      <div class="card mb-3 w-75">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{e.image}}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">{{e.date}}</p>
+              <h5 class="card-title">{{e.title}}</h5>
+              <a href="{{ e.post_url }}" class="btn btn-primary" target="_blank">
+                {{page.read_article_button}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
