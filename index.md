@@ -1,26 +1,10 @@
 ---
-layout: index 
-# ----------------     
-# Creative Section
-creative_title: Creative Performance
-creative_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce intelligent design and last technology engineering products with young, inspiring and collaborative people. 
-creative_features:
-    - title: iOS & AND Development
-      description: Apple’s launch of the application market in 2008 culminated in the creation of a new, vast market.
-      icon: feature_icon_check.png
-      link_text: Read More
-      link_path: /projects/
-    - title: Backend Development
-      description: Apple’s launch of the application market in 2008 culminated in the creation of a new, vast market.
-      icon: feature_icon_wand.png
-      link_text: Read More
-      link_path: /projects/
-    - title: Consulting
-      description: Apple’s launch of the application market in 2008 culminated in the creation of a new, vast market.
-      icon: feature_icon_rocket.png
-      link_text: Read More
-      link_path: /projects/
-# ----------------     
+layout: index
+# ----------------
+# Hero Section
+hero_title: Creative Performance
+hero_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce intelligent design and last technology engineering products with young, inspiring and collaborative people. 
+# ----------------
 # Case Studies Section
 case_studies_title: Case Studies
 case_studies:

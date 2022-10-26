@@ -134,38 +134,16 @@
 .highlights-title {
   color: #0067b4; }
 
-.hero-container {
-  background-size: cover;
-  background-position: top;
-  height: 320px; }
-  @media (min-width: 768px) {
-    .hero-container {
-      height: 400px; } }
-
-.product__hero h1 {
-  font-weight: 300;
-  margin-top: 5.5rem; }
-  @media (max-width: 768px) {
-    .product__hero h1 {
-      font-size: 1.8rem;
-      margin-top: 4rem; } }
-
-.product__hero h2 {
-  font-weight: 200; }
-  @media (max-width: 768px) {
-    .product__hero h2 {
-      font-size: 1.4rem; } }
-
-.product-image {
+.project-image {
   width: 100%; }
   @media (max-width: 768px) {
-    .product-image {
+    .project-image {
       max-width: 50%; } }
 
-.product-content {
+.project-content {
   border-bottom: solid 1px #ecf0f1; }
 
-.product-content:last-of-type {
+.project-content:last-of-type {
   border: none; }
 
 .solution__hero {
@@ -368,9 +346,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Display", helvetica, Arial, sans-serif; }
 
-img {
-  max-width: 100%; }
-
 .section-title {
   font-weight: 100; }
   @media (max-width: 768px) {
@@ -476,8 +451,10 @@ img {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4; } }
-#content br {
-  display: none; }
-
-#content p br {
-  display: inline; }
+.hero-container {
+  background-size: cover;
+  background-position: top;
+  height: 320px; }
+  @media (min-width: 768px) {
+    .hero-container {
+      height: 400px; } }

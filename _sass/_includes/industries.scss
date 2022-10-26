@@ -1,0 +1,14 @@
+.project-image {
+  width: 100%;
+  @media( max-width: 768px) {
+    max-width: 50%;
+  }
+}
+
+.project-content {
+  border-bottom: solid 1px #ecf0f1;
+}
+
+.project-content:last-of-type{
+  border: none;
+}

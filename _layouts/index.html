@@ -1,22 +1,13 @@
 ---
 layout: default
 ---
-<!-- Creative Section -->
+<!-- Hero Section -->
 <section class="container">
   <div class="row pt-3">
     <div class="col-md-6">
-      <p class="display-3 mb-4">{{page.creative_title}}</p>
-      <p class="lead text-justify mb-4">{{page.creative_subtitle}}</p>
+      <p class="display-1 mb-4">{{page.hero_title}}</p>
+      <p class="lead text-justify mb-4">{{page.hero_subtitle}}</p>
     </div>
-  </div>
-  <div class="row g-3 py-4">
-    {% for feature in page.creative_features %}
-      <div class="col-md-4 text-center">
-        <img width="100px" class="mb-4" src="/img/{{feature.icon}}">
-        <p class="fs-5 mb-2 brand-color">{{feature.title}}</p>
-        <p class="fw-lighter">{{feature.description}}</p>
-      </div>
-    {% endfor %}
   </div>
 </section>
 <!-- Expertise Section -->
@@ -96,7 +87,7 @@ layout: default
   <div class="row justify-content-center align-items-center">
     {% for customer in page.customer_logos %}
       <div class="col-auto my-2 justify-content-center">
-        <img src="/img/{{customer.logo}}" class="rounded logo">
+        <img src="/img/company_logos/{{customer.logo}}" class="rounded logo">
       </div>
     {% endfor %}
   </div>

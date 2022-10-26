@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<!-- Hero Section -->
+<section>
+  <div
+  class="row hero-container align-items-center mb-5"
+  style="background-image: url(/img/{{page.hero_background_image}});">
+    <div class="col text-center">
+      <p class="display-6">
+        {{page.hero_title}}
+      </p>
+      <p class="fs-4 fw-lighter mt-2 w-75 mx-auto">
+        {{page.hero_subtitle}}
+      </p>
+    </div>
+  </div>
+</section>
+<!-- How Do We Work Section -->
+<section class="container">
+  <p class="display-6 text-center">
+    {{page.features_title}}
+  </p>
+  <div class="row g-3 py-4">
+    {% for feature in page.features %}
+      <div class="col-md-3 text-center">
+        <img width="100px" class="mb-4" src="/img/{{feature.icon}}">
+        <p class="fs-5 mb-2 brand-color">{{feature.title}}</p>
+        <p class="fw-lighter">{{feature.description}}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- Values Section -->
+<section>
+  <div class="container">
+    <div class="text-center mt-5 w-75 mx-auto">
+      <p class="fs-2 fw-normal mb-2 mb-md-4">{{page.mission_title}}</p>
+      <p class="section-subtitle">{{page.mission_description}}</p>
+    </div>
+    <div class="text-center mt-5 w-75 mx-auto">
+      <p class="fs-2 fw-normal mb-2 mb-md-4">{{page.values_title}}</p>
+    </div>
+    <div class="row my-3">
+      <div class="col-md-8 {% if product.image_position == 'left' %} order-2 {% endif %}">
+        {% for value in page.values %}
+          <div class="row project-content my-3">
+            <div class="col-md-2 align-self-start">
+              <img src="/img/company_logos/logo_akbank.png" class="img-fluid">
+              <!-- <img src="/img/{{info.image}}"> -->
+            </div>
+            <div class="col-md-10">
+              <p class="fs-4 mb-3">{{value.title}}</p>
+              <p class="fw-light">{{value.description}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="col-md-4">
+        <img src="/img/{{page.values_image}}" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
