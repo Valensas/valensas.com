@@ -21,3 +21,14 @@ nav:
 
 ### Editing the Footer 
 You will find the footer content within the `config.yml` file. 
+
+## Docker
+build
+```
+sudo docker build -t valensas.com .
+```
+
+run 
+```
+sudo docker run --volume="$PWD:/srv/jekyll:Z" -t -d -p 4000:4000 valensas.com
+```
