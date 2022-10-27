@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!-- Map Section -->
 <section class="text-center mb-3">
   <div class="">
     <iframe
@@ -12,15 +12,17 @@ layout: default
       frameborder="0"
       scrolling="no"
       marginheight="0"
-      marginwidth="0"></iframe>
+      marginwidth="0">
+    </iframe>
   </div>
 </section>
+<!-- Address Section -->
 <section class="container pb-3">
-  <div class="row justify-content-start contact-item">
+  <div class="row d-grip justify-content-md-center">
     {% for item in page.contact %}
-      <div class="col-md-3 contact-item pb-3">
-        <p class="fs-5 mb-2 contact-address-title">{{item.title}}</p>
-        <p class="fs-6 mb-2 contact-address-title">{{item.location}}</p>
+      <div class="col-sm-6 col-md-3 text-center pb-5">
+        <p class="fs-5 mb-2 blue-color">{{item.title}}</p>
+        <p class="fs-6 mb-2 blue-color">{{item.location}}</p>
         <address class="mb-4 fw-lighter">
           {% for line in item.address %}
             <span>{{line.line}}</span><br>
@@ -35,12 +37,18 @@ layout: default
     {% endfor %}
   </div>
 </section>
+<!-- Contact Form Section -->
 <section>
+  <p class="fs-2 blue-color text-center">
+    {{page.contact_form_title}}
+  </p>
   <a 
-  href="{{site.contact_form_cta_link}}"
-  class="d-block contact_banner text-center text-white text-decoration-none
-  font-weight-light text-uppercase py-4"
+  href="{{page.contact_form_link}}"
+  class="d-block text-center pb-5"
   target="_blank">
-    {{site.contact_form_cta}}
+    <button class="btn btn-outline-primary btn-lg 
+    text-uppercase fw-light custom-button">
+      {{page.contact_form_button}}
+    </button>
   </a>
 </section>

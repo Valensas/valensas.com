@@ -311,16 +311,8 @@
   .product__single .extra_info__content a:hover {
     text-decoration: none; }
 
-.contact-address-title {
+.blue-color {
   color: #0067b4; }
-
-.contact_banner {
-  background-color: #5F9DF7; }
-  .contact_banner:hover {
-    background-color: #1746A2;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear; }
 
 .footer {
   background-color: #314361; }
@@ -358,9 +350,6 @@ body {
   width: 100%;
   overflow: hidden;
   z-index: 1500; }
-
-.section-subtitle {
-  font-weight: 200; }
 
 .terms__single h1:first-of-type {
   text-transform: uppercase;
@@ -454,7 +443,14 @@ body {
 .hero-container {
   background-size: cover;
   background-position: top;
-  height: 320px; }
-  @media (min-width: 768px) {
+  height: 50vh; }
+  @media (max-width: 767px) {
     .hero-container {
-      height: 400px; } }
+      height: 60vh; } }
+
+.custom-button:hover {
+  background-color: #5F9DF7;
+  border-color: #5F9DF7;
+  -webkit-transition: background-color 300ms ease-in;
+  -ms-transition: background-color 300ms ease-in;
+  transition: background-color 300ms ease-in; }

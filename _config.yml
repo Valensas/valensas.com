@@ -21,6 +21,8 @@ nav:
     link: /products/
   - text: Blog
     link: /blog/
+  - text: Career
+    link: /career/
   - text: Enterprise Solutions
     link: /enterprise-solutions/
   - text: Projects
@@ -44,12 +46,6 @@ collections:
     output: true
   blog:
     output: true
-
-application_form_cta: Let's work together
-application_form_cta_link: https://forms.gle/s2CpNARVn8nth7GW7
-
-contact_form_cta: Keep in touch with us
-contact_form_cta_link: https://forms.gle/whcxhqkurJQL6hh18
 
 google_maps_url: https://maps.google.com/maps?q=valensas+re%C5%9Fitpa%C5%9Fa&t=&z=11&ie=UTF8&iwloc=&output=embed
 

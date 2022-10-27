@@ -33,12 +33,8 @@ contact:
       - line: Gulbahce Mah. Gulbahce Cad.
       - line: IYTE TEKNOKENT  No:A9 D:34
       - line: Urla, 35433
-  - title: Valensas Inc.
-    location: San Francisco, CA, USA
-    mail: info@valensas.com
-    address:
-      - line: 353 Sacramento Street 
-      - line: Suite 1812 Fl 18 San Francisco,
-      - line: California 94111
 
+contact_form_title: Do you have questions?
+contact_form_button: Keep in touch with us
+contact_form_link: https://forms.gle/whcxhqkurJQL6hh18
 ---

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<!-- Hero Section -->
+{% include hero.html
+  hero_title = page.hero_title
+  hero_subtitle = page.hero_subtitle
+  hero_background_image = page.hero_background_image
+%}
+<!-- Job Application Section -->
+<section>
+  <p class="fs-2 blue-color text-center">
+    {{page.application_form_title}}
+  </p>
+  <a 
+  href="{{page.application_form_link}}"
+  class="d-block text-center pb-5"
+  target="_blank">
+    <button class="btn btn-outline-primary btn-lg 
+    text-uppercase fw-light custom-button">
+      {{page.application_form_button}}
+    </button>
+  </a>
+</section>

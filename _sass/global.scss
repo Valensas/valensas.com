@@ -34,11 +34,6 @@ body {
   z-index: 1500;
 }
 
-
-.section-subtitle {
-  font-weight: 200;
-}
-
 .terms__single {
   h1:first-of-type {
     text-transform: uppercase;
@@ -156,8 +151,16 @@ body {
 .hero-container {
   background-size: cover;
   background-position: top;
-  height: 320px;
-  @media (min-width: 768px) {
-    height: 400px;
+  height: 50vh;
+  @media (max-width: 767px) {
+    height: 60vh;
   }
+}
+
+.custom-button:hover {
+  background-color: #5F9DF7;
+  border-color: #5F9DF7;
+  -webkit-transition: background-color 300ms ease-in;
+  -ms-transition: background-color 300ms ease-in;
+  transition: background-color 300ms ease-in;
 }

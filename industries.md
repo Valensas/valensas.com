@@ -6,7 +6,6 @@ permalink: /industries/
 # Hero
 hero_title: Industries
 hero_subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet viverra nisl. Donec feugiat sollicitudin ornare. Cras non turpis et leo suscipit cursus.
-  Nulla lobortis, nisi non pharetra commodo, nisi arcu dapibus ligula, at condimentum urna dui vel libero. Nunc nec nulla ex. 
 hero_background_image: ourproducts-background1.png
 # ----------------     
 # Induestries Info

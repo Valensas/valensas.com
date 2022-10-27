@@ -2,27 +2,18 @@
 layout: default
 ---
 <!-- Hero Section -->
-<section>
-  <div
-  class="row hero-container align-items-center mb-5"
-  style="background-image: url(/img/{{page.hero_background_image}});">
-    <div class="col text-center">
-      <p class="display-6">
-        {{page.hero_title}}
-      </p>
-      <p class="fs-4 fw-lighter mt-2 w-75 mx-auto">
-        {{page.hero_subtitle}}
-      </p>
-    </div>
-  </div>
-</section>
+{% include hero.html
+  hero_title = page.hero_title
+  hero_subtitle = page.hero_subtitle
+  hero_background_image = page.hero_background_image
+%}
 <!-- Industries Section -->
 <section>
   <div class="container">
     {% for product in page.industries_section %}
       <div class="text-center mt-5 w-75 mx-auto">
         <p class="fs-2 fw-normal mb-2 mb-md-4">{{product.title}}</p>
-        <p class="section-subtitle">{{product.subtitle}}</p>
+        <p class="fw-lighter">{{product.subtitle}}</p>
       </div>
       <div class="row my-3">
         <div class="col-md-8 {% if product.image_position == 'left' %} order-2 {% endif %}">

@@ -2,20 +2,11 @@
 layout: default
 ---
 <!-- Hero Section -->
-<section>
-  <div
-  class="row hero-container align-items-center mb-5"
-  style="background-image: url(/img/{{page.hero_background_image}});">
-    <div class="col text-center">
-      <p class="display-6">
-        {{page.hero_title}}
-      </p>
-      <p class="fs-4 fw-lighter mt-2 w-75 mx-auto">
-        {{page.hero_subtitle}}
-      </p>
-    </div>
-  </div>
-</section>
+{% include hero.html
+  hero_title = page.hero_title
+  hero_subtitle = page.hero_subtitle
+  hero_background_image = page.hero_background_image
+%}
 <!-- Blog Section -->
 <section id="main" class="wrapper style1">
   <div class="container">
