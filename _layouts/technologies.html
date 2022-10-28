@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<!-- Hero Section -->
+{% include hero.html
+  hero_title = page.hero_title
+  hero_subtitle = page.hero_subtitle
+  hero_background_image = page.hero_background_image
+%}
+<!-- Products Section -->
+<section>
+  <div class="container">
+    {% for tech in page.technologies %}
+      <div class="text-center mt-5 w-75 mx-auto mb-2 mb-md-4">
+        <p class="fs-2 fw-normal">{{tech}}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>

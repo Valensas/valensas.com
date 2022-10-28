@@ -7,6 +7,25 @@ layout: default
   hero_subtitle = page.hero_subtitle
   hero_background_image = page.hero_background_image
 %}
+<!-- Employee Info -->
+<section>
+  <div class="text-center mt-5 w-75 mx-auto">
+    <p class="fs-2 fw-lighter mb-2 mb-md-4">{{page.employee_info}}</p>
+    <div class="container">
+    </div>
+  </div>
+</section>
+<!-- Benefits Section -->
+<section>
+  <div class="container">
+    <div class="text-center mt-5 mx-auto">
+      <p class="fs-2 fw-normal mb-2 mb-md-4">{{page.benefits_title}}</p>
+      {% for benefit in page.benefits %}
+          <p class="fw-light fs-5">{{benefit}}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 <!-- Job Application Section -->
 <section>
   <p class="fs-2 blue-color text-center">

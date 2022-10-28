@@ -15,6 +15,10 @@ host: 0.0.0.0
 nav:
   - text: About Us
     link: /about/
+  - text: Technologies
+    link: /technologies/
+  - text: Services
+    link: /Services/
   - text: Industries
     link: /industries/
   - text: Products
@@ -23,10 +27,6 @@ nav:
     link: /blog/
   - text: Career
     link: /career/
-  - text: Enterprise Solutions
-    link: /enterprise-solutions/
-  - text: Projects
-    link: /projects/
   - text: Contact
     link: /contact/
 

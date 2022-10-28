@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<!-- Hero Section -->
+{% include hero.html
+  hero_title = page.hero_title
+  hero_subtitle = page.hero_subtitle
+  hero_background_image = page.hero_background_image
+%}
+<!-- Services Section -->
+<section>
+  <div class="container">
+    <p class="display-4 fw-lighter text-center pt-4 pb-5">{{page.services_title}}</p>
+    {% for service in page.services %}
+      <div class="text-center mt-5 w-75 mx-auto mb-2 mb-md-4">
+        <p class="fs-2 fw-normal">{{service.title}}</p>
+        <p class="fs-5 fw-lighter">{{service.content}}</p>
+        <ul>
+          {% for item in service.subcontent %}
+            <li class="text-center mt-5 w-75 mx-auto mb-2 mb-md-4">
+              <p class="">{{item}}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>

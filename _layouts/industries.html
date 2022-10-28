@@ -13,7 +13,9 @@ layout: default
     {% for product in page.industries_section %}
       <div class="text-center mt-5 w-75 mx-auto">
         <p class="fs-2 fw-normal mb-2 mb-md-4">{{product.title}}</p>
-        <p class="fw-lighter">{{product.subtitle}}</p>
+        {% for tag in product.tags %}
+          <button class="btn btn-outline-dark mx-1" disabled>{{tag}}</button>
+        {% endfor %}
       </div>
       <div class="row my-3">
         <div class="col-md-8 {% if product.image_position == 'left' %} order-2 {% endif %}">
