@@ -42,7 +42,7 @@ footer_socials:
     link: https://www.youtube.com/user/ValensasTechnology
 
 collections:
-  projects:
+  case_studies:
     output: true
   blog:
     output: true

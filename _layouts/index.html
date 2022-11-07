@@ -5,38 +5,14 @@ layout: default
 <section class="container">
   <div class="row pt-3">
     <div class="col-md-6">
-      <p class="display-1 mb-4">{{page.hero_title}}</p>
-      <p class="lead text-justify mb-4">{{page.hero_subtitle}}</p>
+      <p class="display-1 mb-4">{{ page.hero_title }}</p>
+      <p class="lead text-justify mb-4">{{ page.hero_subtitle }}</p>
     </div>
-  </div>
-</section>
-<!-- Expertise Section -->
-<section class="container">
-  <p class="display-4 fw-lighter text-center pt-4 pb-5">{{page.expertise_title}}</p>
-  <div class="row g-0 justify-content-center">
-    {% for item in page.expertise %}
-      <div class="card col-md-3 col-sm-12 mx-3 bg-white">
-          <a href="{{ item.url }}" class="text-decoration-none">
-            <img class="card-img-top mb-4" src="/img/{{ item.image }}">
-            <div class="card-body">
-              <p class="card-title highlights-title">{{ item.title }}</p>
-              <p class="card-text text-dark">
-                {{ item.content }}
-              </p>
-            </div>
-          </a>
-      </div>
-    {% endfor %}
-  </div>
-  <div class="text-center mt-3">
-    <a href="/enterprise-solutions/">
-      <button type="button" class="btn btn-outline-dark">See All</button>
-    </a>
   </div>
 </section>
 <!-- Case Studies Section -->
 <section class="container">
-  <p class="display-4 fw-lighter text-center pt-4 mb-5">{{page.case_studies_title}}</p>
+  <p class="display-4 fw-lighter text-center pt-4 mb-5">{{ page.case_studies_title }}</p>
   <div class="row g-0 justify-content-center">
     {% for item in page.case_studies %}
       <div class="card col-md-3 col-sm-12 mx-3 bg-white">
@@ -53,14 +29,14 @@ layout: default
     {% endfor %}
   </div>
   <div class="text-center mt-3">
-    <a href="/projects">
+    <a href="/industries">
       <button type="button" class="btn btn-outline-dark">See All</button>
     </a>
   </div>
 </section>
 <!-- Products Section -->
 <section class="container">
-  <p class="display-4 fw-lighter text-center pt-4 mb-5">{{page.products_title}}</p>
+  <p class="display-4 fw-lighter text-center pt-4 mb-5">{{ page.products_title }}</p>
   <div class="row g-0 justify-content-center">
     {% for item in page.products %}
       <div class="card col-md-3 col-sm-12 mx-3 bg-white">

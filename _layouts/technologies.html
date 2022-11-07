@@ -12,7 +12,8 @@ layout: default
   <div class="container">
     {% for tech in page.technologies %}
       <div class="text-center mt-5 w-75 mx-auto mb-2 mb-md-4">
-        <p class="fs-2 fw-normal">{{tech}}</p>
+        <p class="fs-2 fw-normal">{{tech.title}}</p>
+        <p class="fw-light">{{tech.content}}</p>
       </div>
     {% endfor %}
   </div>

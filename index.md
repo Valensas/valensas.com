@@ -3,55 +3,45 @@ layout: index
 # ----------------
 # Hero Section
 hero_title: Creative Performance
-hero_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce intelligent design and last technology engineering products with young, inspiring and collaborative people. 
+hero_subtitle: Valensas has a broad portfolio of solutions for companies of all sizes. We work as a family to produce intelligent design
+  and last technology engineering products with young, inspiring and collaborative people. 
 # ----------------
 # Case Studies Section
 case_studies_title: Case Studies
 case_studies:
-  - title: Akbank "Tosla"
-    content: We have an alternative to cash in your pocket and your money in the bank. It is cheap to move, easy to reach and open up a new social world to be a part. Instant  money transfer to all your friends, whether or not they are network members. Moreover, you can withdraw the money sent via ATMs and reach to the cash you need instantly.
+  - title: Tosla
+    content: Tosla, the Peer to Peer (P2P) money transfer application, has been developed with Akbank engineers to fulfill simple
+      financial needs of the youth.
     image: case1.png
-    url: /projects/01-akbank-tosla
-  - title: Turkish Airlines
-    content: Cabin and cockpit crews are now able to do their operations online. We achieved more than 50% of time savings across all transactions. Document tracking, personnel tracking, flight personnel information and flight information are available to the whole team.
+    url: /case_studies/tosla
+  - title: Bitronit
+    content: Bitronit is a Valensas-developed cryptocurrency exchange featuring real market data, a unique matching engine and fast
+      transaction abilities. 
     image: case2.png
-    url: /projects/11-thy-roster
-  - title: Hepsiburada ChatBot
-    content: Hepsiburada ChatBot and witnessed immediate relief within our support operation. Currently, our bot provides instantaneous support to 60% of all chatting customers, and has reduced our queued visitors by over 50%. Hepsiburada Chatbot 7/24 works, starts talking with you, provides instant information about your orders.
+    url: /case_studies/bitronit
+  - title: Bilyoner
+    content: Bilyoner is Turkey's first electronic casino games platform, offering betting services, lottery ticket results, and banking
+      services.
     image: case3.png
-    url: /projects/06-hepsiburada
-# ----------------     
-# Expertise Section
-expertise_title: Expertise
-expertise:
-  - title: Akbank "Tosla"
-    content: We have an alternative to cash in your pocket and your money in the bank. It is cheap to move, easy to reach and open up a new social world to be a part. Instant  money transfer to all your friends, whether or not they are network members. Moreover, you can withdraw the money sent via ATMs and reach to the cash you need instantly.
-    image: case1.png
-    url: /projects/01-akbank-tosla
-  - title: Turkish Airlines
-    content: Cabin and cockpit crews are now able to do their operations online. We achieved more than 50% of time savings across all transactions. Document tracking, personnel tracking, flight personnel information and flight information are available to the whole team.
-    image: case2.png
-    url: /projects/11-thy-roster
-  - title: Hepsiburada ChatBot
-    content: Hepsiburada ChatBot and witnessed immediate relief within our support operation. Currently, our bot provides instantaneous support to 60% of all chatting customers, and has reduced our queued visitors by over 50%. Hepsiburada Chatbot 7/24 works, starts talking with you, provides instant information about your orders.
-    image: case3.png
-    url: /projects/06-hepsiburada
+    url: /case_studies/bilyoner
 # ----------------     
 # Products Section
 products_title: Products
 products:
-  - title: Akbank "Tosla"
-    content: We have an alternative to cash in your pocket and your money in the bank. It is cheap to move, easy to reach and open up a new social world to be a part. Instant  money transfer to all your friends, whether or not they are network members. Moreover, you can withdraw the money sent via ATMs and reach to the cash you need instantly.
+  - title: Payment Systems
+    content: Our codebase is a viable product to meet the regulator’s licensing criteria. We have a track record of offering our codebase
+      to companies, banks, and financial institutions seeking to acquire a license.
     image: case1.png
-    url: /projects/01-akbank-tosla
-  - title: Turkish Airlines
-    content: Cabin and cockpit crews are now able to do their operations online. We achieved more than 50% of time savings across all transactions. Document tracking, personnel tracking, flight personnel information and flight information are available to the whole team.
+    url: /products
+  - title: Cryptocurrency Exchange
+    content: Our platform offers individuals the ability to store their cryptocurrency assets in their wallets and trade a variety of
+      digital coins like Bitcoin, Etherium etc. on a highly secured platform.
     image: case2.png
-    url: /projects/11-thy-roster
-  - title: Hepsiburada ChatBot
-    content: Hepsiburada ChatBot and witnessed immediate relief within our support operation. Currently, our bot provides instantaneous support to 60% of all chatting customers, and has reduced our queued visitors by over 50%. Hepsiburada Chatbot 7/24 works, starts talking with you, provides instant information about your orders.
+    url: /products
+  - title: Digital Onboarding / KYC
+    content: Our codebase features e-government integration, NFC reader and liveness detection amongst other capabilities.
     image: case3.png
-    url: /projects/06-hepsiburada
+    url: /products
 # ----------------  
 # Customers
 customers_title: Our Customers
